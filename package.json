@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "Server Side Rendering",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PotatoCracker420/SSR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PotatoCracker420/SSR/issues"
+  },
+  "homepage": "https://github.com/PotatoCracker420/SSR#readme"
+}
