@@ -11,6 +11,13 @@ app.get('/', (req, res) => {
     res.send('Hello, world! Klokken er ' + new Date().toLocaleTimeString());
 });
 
+app.get('/her', (req, res) => {
+    res.send(`
+        <h1>Her er en overskrift</h1>
+        <p>Og her er en paragraf</p>
+    `);
+});
+
 // Så starter vi serveren, som nå lytter på port 3000:
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
